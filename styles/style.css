@@ -1,0 +1,45 @@
+body
+{
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  margin:  0;
+}
+
+p 
+{
+    margin: 0 0 10px 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+/* .bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-black), var(--bs-black)) !important;
+} */
+
+.nav-link{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 40px;
+}
