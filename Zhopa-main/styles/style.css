@@ -88,18 +88,23 @@ p
 
 .BLOCK_2_card {
     position: relative;
+    padding-bottom: 30px;
 }
 
 .BLOCK_2_cards {
-    position: relative;
+    
+    display: grid;
     margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    gap: 20px 0;
 }
 
 .BLOCK_2_card_inner1 {
     position: absolute;
     bottom: 30px;
     width: 500px;
-    left: 20px;
+    left: 60px;
 }
 
 .BLOCK_2_title {
@@ -115,4 +120,35 @@ p
     line-height: 30px;
     color: #acacac;
     
+}
+
+.BLOCK_2_card_title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.BLOCK_2_info_text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e6e6e6;
+    margin-bottom: 26px;
+}
+
+.BLOCK_2_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.BLOCK_2_link:hover {
+    color: #000000;
+    background-color: #fff;
+    border-radius: 10px;
 }
